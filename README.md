@@ -11,7 +11,7 @@ This script needs to run on a host that has the Kafka system tools.
 Before using it for the first time you should check the following two variables:
 
 * `KAFKA_BIN="/usr/lib/kafka/bin/"`: This should be set to the directory containing the Kafka system tools
-* `TMP="/tmp/kafka"`
+* `TMP="/tmp/kafka"`: This directory will contain the temporary files that the script generates
 
 After this is done you can run the following to get instructions on how to use the script and description of all its arguments:
 
